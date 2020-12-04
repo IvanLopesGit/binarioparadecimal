@@ -1,4 +1,4 @@
-# Binário para Decimal
+# Binário Para Decimal
 
 Confira o [resultado]()
 

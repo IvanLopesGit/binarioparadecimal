@@ -8,7 +8,7 @@ const Input = ({ inputBin, handleBinaryInput }) => {
         name="binarynum"
         type="text"
         minLength="1"
-        maxLength="8"
+        maxLength="20"
         value={inputBin.value}
         onChange={(e) => handleBinaryInput(e)}
         autoFocus
@@ -17,7 +17,7 @@ const Input = ({ inputBin, handleBinaryInput }) => {
   );
 };
 
-Input.prototype = {
+Input.propTypes = {
   value: PropTypes.number,
 };
 

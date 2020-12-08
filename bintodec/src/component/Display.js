@@ -4,7 +4,10 @@ const Display = ({ inputBin, decNum }) => {
   return (
     <div className="display">
       {!inputBin.binary ? (
-        <p className="info">Digite um número binário válido!!</p>
+        <p className="info">
+          <span role="img" aria-label="Shrug"></span>
+          Por favor digite um número binário!
+        </p>
       ) : (
         <p>{decNum}</p>
       )}
